@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>siwe_sharp_nethereum</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\siwe-sharp\siwe-sharp.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Nethereum" Version="0.95.0--date20210125-0551.git-05a29e9" />
+    </ItemGroup>
+
+</Project>
